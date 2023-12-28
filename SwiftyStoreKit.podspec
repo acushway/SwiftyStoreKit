@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '15.0'
   s.osx.deployment_target = '10.10'
   s.swift_version = '5.0'
-  s.source       = { :git => "https://github.com/bizz84/SwiftyStoreKit.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/acushway/SwiftyStoreKit.git", :tag => s.version }
   s.source_files = 'Sources/SwiftyStoreKit/*.{swift}'
   s.screenshots  = ["https://github.com/bizz84/SwiftyStoreKit/raw/master/Screenshots/Preview.jpg"]
   s.requires_arc = true
